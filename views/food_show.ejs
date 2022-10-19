@@ -5,22 +5,24 @@
         <title>Welcome to Gitpub</title>
         <style>
             body {
-              color: #281D18;
-              background-color: #56AC2F;
+              color: #000000;
+              background-color: #FF99C2;
             }
           </style>
     </head>
     <body>
+       
         <h1>At Foo Bar</h1>
-        <h2> <%= drinks.name %> </h2>
+        <h2> <%= food.name %> </h2>
 
       <img src=
-     "<%= drinks.image %>"
-     alt="Broken">
+     "<%= food.image %>"
+     alt=" Broken ">
+
         <h3>
-           Price: $ <%= drinks.price %>
+           Price: $ <%= food.price %>
         </h3>
 
-        <a href="/drinks">Go Back</a><br>
+        <a href="/drinks">Back to Index</a><br>
     </body>
 </html>
