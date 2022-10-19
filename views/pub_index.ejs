@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Welcome to Gitpub</title>
+        <style>
+            body {
+              color: white;
+              background-color: #B7E6A2;
+            }
+          </style>
+    </head>
+    <body>
+        <h1>Welcome to Gitpub</h1>
+        <h2> Drink Menu</h2>
+        <ul>
+            <% for(let i = 0; i < allDrinks.length; i++){ %>
+                <li>
+                    <a href="/drinks/<%= i %>">
+                        <%= allDrinks[i].name %>
+                    </a>
+                </li>
+            <% } %>
+        </ul>
+        <h2>Food Menu</h2>
+    
+            <ul>
+            <% for(let i = 0; i < allFood.length; i++){ %>
+                <li>
+                    <a href="/food/<%= i %>">
+                        <%= allFood[i].name %>
+                    </a>
+                </li>
+                </ul>
+            <% } %>
+    </body>
+</html>
