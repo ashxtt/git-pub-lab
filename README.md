@@ -3,7 +3,7 @@
 ### Pub app that displays data inside server-side rendered views
 
 ## Tools Used
-### -JavaScript
+### - JavaScript
 ### - Express
-### -node
-### -ejs
+### - node
+### - ejs
